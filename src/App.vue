@@ -1,49 +1,17 @@
 <template>
-<!-- <WORK_2/> -->
-<div ref="loader" class="fixed top-0 left-0 right-0 bottom-0 w-full h-screen z-50 overflow-hidden
-bg-gray-700 opacity-75 flex flex-col items-center justify-center">
+<WORK_2/>
 
-<svg class="w-24 h-24 animate-spin text-indigo-400" viewBox="0 0 24 24" fill="none"
-xmlns="http://www.w3.org/2000/svg">
-      <path d="M12 4.75V6.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-      stroke-linejoin="round"></path>
-      <path d="M17.1266 6.87347L16.0659 7.93413" stroke="currentColor" stroke-width="1.5"
-      stroke-linecap="round" stroke-linejoin="round"></path>
-      <path d="M19.25 12L17.75 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-      stroke-linejoin="round"></path>
-      <path d="M17.1266 17.1265L16.0659 16.0659" stroke="currentColor" stroke-width="1.5"
-      stroke-linecap="round" stroke-linejoin="round"></path>
-      <path d="M12 17.75V19.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-      stroke-linejoin="round"></path>
-      <path d="M7.9342 16.0659L6.87354 17.1265" stroke="currentColor" stroke-width="1.5"
-      stroke-linecap="round" stroke-linejoin="round"></path>
-      <path d="M6.25 12L4.75 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-      stroke-linejoin="round"></path>
-      <path d="M7.9342 7.93413L6.87354 6.87347" stroke="currentColor" stroke-width="1.5"
-      stroke-linecap="round" stroke-linejoin="round"></path>
-    </svg>
-
-<h2 class="text-center text-white text-xl font-semibold">Loading...</h2>
-<p class="w-1/3 text-center text-white">This may take a few seconds, please don't close this
-page.</p>
-</div>
-<WORK_3/>
 </template>
 
 <script>
-// import WORK_2 from '@/components/WORK_2/WORK_2.vue';
-import WORK_3 from '@/components/WORK_3/WORK_3.vue';
+import WORK_2 from '@/components/WORK_2/WORK_2.vue';
 
 export default {
   name: 'App',
   mounted() {
-    setTimeout(() => {
-      this.$refs.loader.classList.add('hidden');
-    }, 543);
   },
   components: {
-    // WORK_2,
-    WORK_3,
+    WORK_2,
   },
 };
 </script>
@@ -56,28 +24,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-.loader {
-  border-top-color: #3498db;
-  -webkit-animation: spinner 1.5s linear infinite;
-  animation: spinner 1.5s linear infinite;
-}
-
-@-webkit-keyframes spinner {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes spinner {
-  0% {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 </style>
