@@ -1,0 +1,11 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer utilities {
+    .eio {
+        transition: transform 0.3s ease-in-out;
+    }
+  }
