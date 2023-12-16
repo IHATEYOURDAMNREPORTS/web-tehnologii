@@ -10,8 +10,8 @@
       </div>
       <caCar @w3EV="handlew3EVCarouselEmit" :num-slides=this.nCards :total-cards=2
       event-name="w3EV">
-        <div ref="card" class="card mx-auto  lg:max-w-[540px] shrink-0 p-[31px] lg:h-[308px] bg-[#FAFAFA]
-        rounded-[15px] shadow h-[400px]" :style ="{width: w + '%'}">
+        <div ref="card" class="card mx-auto  lg:max-w-[540px] shrink-0 p-[31px] lg:h-[308px]
+        bg-[#FAFAFA] rounded-[15px] shadow h-[400px]" :style ="{width: w + '%'}">
           <div class="flex gap-5 mb-3">
             <div class="w-[76px] shrink-0 h-[76px] bg-[#ecedff] rounded-[11px] text-center
             text-red-400 font-['Roboto']">
@@ -41,8 +41,8 @@
             </div>
           </div>
         </div>
-        <div ref="card" class="card mx-auto  lg:max-w-[540px] shrink-0 p-[31px]  lg:h-[308px] bg-[#FAFAFA]
-        rounded-[15px] shadow" :style ="{width: w + '%'}">
+        <div ref="card" class="card mx-auto  lg:max-w-[540px] shrink-0 p-[31px]  lg:h-[308px]
+        bg-[#FAFAFA] rounded-[15px] shadow" :style ="{width: w + '%'}">
           <div class="flex gap-5 mb-3">
             <div class="w-[76px] shrink-0 h-[76px] bg-[#ecedff] rounded-[11px] text-center
             text-red-400 font-['Roboto']">
@@ -92,7 +92,7 @@ export default {
     caCar,
   },
   created() {
-        if (window.matchMedia('(max-width:640px)').matches) {
+    if (window.matchMedia('(max-width:640px)').matches) {
       this.nCards = 1;
     } else {
       this.nCards = 2;

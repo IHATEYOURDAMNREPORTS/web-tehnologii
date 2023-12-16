@@ -1,5 +1,4 @@
 <template>
-<!-- <WORK_2/> -->
 <div ref="loader" class="fixed top-0 left-0 right-0 bottom-0 w-full h-screen z-50 overflow-hidden
 bg-gray-700 opacity-75 flex flex-col items-center justify-center">
 
@@ -31,7 +30,6 @@ page.</p>
 </template>
 
 <script>
-// import WORK_2 from '@/components/WORK_2/WORK_2.vue';
 import WORK_3 from '@/components/WORK_3/WORK_3.vue';
 
 export default {
@@ -42,7 +40,6 @@ export default {
     }, 543);
   },
   components: {
-    // WORK_2,
     WORK_3,
   },
 };

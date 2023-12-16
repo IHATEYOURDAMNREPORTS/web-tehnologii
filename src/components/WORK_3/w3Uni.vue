@@ -37,7 +37,7 @@ export default {
     caCar,
   },
   created() {
-        if (window.matchMedia('(max-width:640px)').matches) {
+    if (window.matchMedia('(max-width:640px)').matches) {
       this.nCards = 2;
     } else {
       this.nCards = 4;
