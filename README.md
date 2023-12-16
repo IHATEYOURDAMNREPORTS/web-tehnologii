@@ -1,4 +1,4 @@
-# vue-tailwind
+# isn-app
 
 ## Project setup
 ```
