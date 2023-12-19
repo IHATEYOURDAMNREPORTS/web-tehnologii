@@ -13,7 +13,8 @@
             font-['Roboto'] leading-[38px]">We are  always availed to consult on taking your higher
             education to the next level so you can stay competitive in the global world. We welcome
             the opportunity to work with you "today" for "tomorrow's" better career solutions.</div>
-            <button @click="showAlert()"  class=" flex items-center pt-1 justify-center
+            <button @click="showAlert()"  class="sm:m-0
+                    m-auto flex items-center pt-1 justify-center
             md:justify-start">
                 <div class="w-[200px] h-16 bg-indigo-400 rounded-[11px] flex items-center
                 justify-around">

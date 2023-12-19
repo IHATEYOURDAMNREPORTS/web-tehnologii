@@ -2,7 +2,7 @@
     <div class="flex flex-row md:flex-col lg:flex-row justify-between
      items-center"> <!-- TODO: mb-[200px] -->
         <div class="flex flex-col lg:gap-[26px] py-4 lg:py-0 items-start
-        md:items-center lg:items-start w-full lg:w-[146px] lg:ml-[60px]
+        md:items-center lg:items-start md:w-full lg:w-[146px] lg:ml-[60px]
         lg:h-[52px] flex-shrink-0 laptopL:ml-[120px]">
             <img class="flex-shrink-0" alt="logo"
             src="@/assets/WORK_3/logo.svg">
