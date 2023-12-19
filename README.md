@@ -1,24 +1,4 @@
-# vue-tailwind
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Веб-технологии
+[Отчёт по работе №1](./report_wt1.md)
+[Отчёт по работе №2](./report_wt2.md)
+[Отчёт по работе №3](./report_wt3.md)
